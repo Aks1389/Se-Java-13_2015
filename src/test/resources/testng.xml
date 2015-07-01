@@ -5,6 +5,9 @@
 		<parameter name="path" value="/"/>
 		<classes>
 		    <class name="selenium.tests.LoginTest"/>
+		    <class name="selenium.tests.AddFilm"/>
+		    <class name="selenium.tests.DelFilm"/>
+		    <class name="selenium.tests.Logout"/>
 		</classes>
 	</test>  
 </suite>

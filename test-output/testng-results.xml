@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19449" started-at="2015-07-01T16:46:58Z" finished-at="2015-07-01T16:47:17Z">
+  <suite name="Tests" duration-ms="31440" started-at="2015-07-01T18:55:22Z" finished-at="2015-07-01T18:55:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19449" started-at="2015-07-01T16:46:58Z" finished-at="2015-07-01T16:47:17Z">
+    <test name="Test1" duration-ms="31440" started-at="2015-07-01T18:55:22Z" finished-at="2015-07-01T18:55:54Z">
       <class name="selenium.tests.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:selenium.tests.LoginTest@1a49182]" name="init" is-config="true" duration-ms="9918" started-at="2015-07-01T19:46:58Z" finished-at="2015-07-01T19:47:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:selenium.tests.LoginTest@db06de]" name="init" is-config="true" duration-ms="19359" started-at="2015-07-01T21:55:22Z" finished-at="2015-07-01T21:55:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:selenium.tests.LoginTest@1a49182]" name="testLogin" duration-ms="9455" started-at="2015-07-01T19:47:08Z" finished-at="2015-07-01T19:47:17Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:selenium.tests.LoginTest@db06de]" name="testLogin" duration-ms="4559" started-at="2015-07-01T21:55:42Z" finished-at="2015-07-01T21:55:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.tests.LoginTest@1a49182]" name="tearDown" is-config="true" duration-ms="3409" started-at="2015-07-01T19:47:17Z" finished-at="2015-07-01T19:47:21Z">
+      </class> <!-- selenium.tests.LoginTest -->
+      <class name="selenium.tests.Logout">
+        <test-method status="PASS" signature="init()[pri:0, instance:selenium.tests.Logout@32835b]" name="init" is-config="true" duration-ms="1697" started-at="2015-07-01T21:55:51Z" finished-at="2015-07-01T21:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:selenium.tests.Logout@32835b]" name="testLogout" duration-ms="594" started-at="2015-07-01T21:55:53Z" finished-at="2015-07-01T21:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.tests.Logout@32835b]" name="tearDown" is-config="true" duration-ms="2316" started-at="2015-07-01T21:55:54Z" finished-at="2015-07-01T21:55:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- selenium.tests.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- selenium.tests.Logout -->
+      <class name="selenium.tests.AddFilm">
+        <test-method status="PASS" signature="init()[pri:0, instance:selenium.tests.AddFilm@1237512]" name="init" is-config="true" duration-ms="40" started-at="2015-07-01T21:55:46Z" finished-at="2015-07-01T21:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testAddFilm()[pri:0, instance:selenium.tests.AddFilm@1237512]" name="testAddFilm" duration-ms="4471" started-at="2015-07-01T21:55:46Z" finished-at="2015-07-01T21:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddFilm -->
+      </class> <!-- selenium.tests.AddFilm -->
+      <class name="selenium.tests.DelFilm">
+        <test-method status="PASS" signature="init()[pri:0, instance:selenium.tests.DelFilm@1adc5f7]" name="init" is-config="true" duration-ms="34" started-at="2015-07-01T21:55:51Z" finished-at="2015-07-01T21:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testDelFilm()[pri:0, instance:selenium.tests.DelFilm@1adc5f7]" name="testDelFilm" duration-ms="632" started-at="2015-07-01T21:55:51Z" finished-at="2015-07-01T21:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelFilm -->
+      </class> <!-- selenium.tests.DelFilm -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
 </testng-results>
