@@ -1,10 +1,12 @@
-package selenium_tests.pages;
+package selenium.tests.pages;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import selenium_tests.pages.HomePage;
 
 public class HomePageTest extends TestBase {
 

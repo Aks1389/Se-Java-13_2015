@@ -20,12 +20,7 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>2.43.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.opera</groupId>
-      <artifactId>operadriver</artifactId>
-      <version>1.5</version>
+      <version>2.46.0</version>
     </dependency>
     <dependency>
       <groupId>com.github.detro.ghostdriver</groupId>
@@ -81,14 +76,14 @@
   <!-- profiles -->
   <profiles>
     <profile>
-      <id>local</id>
+      <id>firefox_local</id>
       <properties>
         <env>local</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url></site.url>
-        <browser.name></browser.name>
+        <site.url>http://localhost/</site.url>
+        <browser.name>firefox</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
@@ -97,14 +92,14 @@
       </activation>
     </profile>
     <profile>
-      <id>dev</id>
+      <id>ie</id>
       <properties>
         <env>dev</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url></site.url>
-        <browser.name></browser.name>
+        <site.url>http://localhost/</site.url>
+        <browser.name>ie</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>

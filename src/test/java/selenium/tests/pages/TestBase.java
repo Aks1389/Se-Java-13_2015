@@ -1,4 +1,4 @@
-package selenium_tests.pages;
+package selenium.tests.pages;
 
 import java.io.File;
 import java.io.IOException;

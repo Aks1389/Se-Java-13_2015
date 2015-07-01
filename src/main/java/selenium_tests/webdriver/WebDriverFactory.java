@@ -16,7 +16,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import com.opera.core.systems.OperaDriver;
+//import com.opera.core.systems.OperaDriver;
 
 import selenium_tests.util.Browser;
 import selenium_tests.webdriver.AuthenticatedHtmlUnitDriver;
@@ -169,10 +169,10 @@ public class WebDriverFactory {
 		} else if (INTERNET_EXPLORER.equals(browser)) {
 			webDriver = new InternetExplorerDriver();
 
-		} else if (OPERA.equals(browser)) {
+		} /*else if (OPERA.equals(browser)) {
 			webDriver = new OperaDriver();
 
-		} else if (SAFARI.equals(browser)) {
+		}*/ else if (SAFARI.equals(browser)) {
 			webDriver = new SafariDriver();
 
 		} else if (PHANTOMJS.equals(browser)) {
