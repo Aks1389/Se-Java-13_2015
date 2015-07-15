@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="selenium.tests.LoginTest">
+      <class name="selenium.tests.AddFilm2">
         <methods>
-          <include name="testLogin"/>
           <include name="init"/>
           <include name="tearDown"/>
+          <include name="testAddFilm"/>
         </methods>
-      </class> <!-- selenium.tests.LoginTest -->
+      </class> <!-- selenium.tests.AddFilm2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

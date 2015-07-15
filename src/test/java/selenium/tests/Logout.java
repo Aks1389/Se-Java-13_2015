@@ -20,15 +20,6 @@ public class Logout extends selenium.tests.pages.TestBase {
     assertTrue(closeAlertAndGetItsText().matches("^[\\s\\S]*$"));
   }
 
-  private boolean isElementPresent(By by) {
-    try {
-      driver.findElement(by);
-      return true;
-    } catch (NoSuchElementException e) {
-      return false;
-    }
-  }
-
   private String closeAlertAndGetItsText() {
     try {
       Alert alert = driver.switchTo().alert();

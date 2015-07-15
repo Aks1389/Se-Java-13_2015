@@ -104,37 +104,5 @@
         <browser.platform></browser.platform>
       </properties>
     </profile>
-    <profile>
-      <id>test</id>
-      <properties>
-        <env>test</env>
-        <user.username></user.username>
-        <user.password></user.password>
-        <grid2.hub></grid2.hub>
-        <site.url></site.url>
-        <browser.name></browser.name>
-        <browser.version></browser.version>
-        <browser.platform></browser.platform>
-      </properties>
-    </profile>
-    <profile>
-      <id>prod</id>
-      <properties>
-        <env>prod</env>
-        <user.username></user.username>
-        <user.password></user.password>
-        <grid2.hub></grid2.hub>
-        <site.url></site.url>
-        <browser.name></browser.name>
-        <browser.version></browser.version>
-        <browser.platform></browser.platform>
-      </properties>
-    </profile>
-    <profile>
-      <id>force-local-driver</id>
-      <properties>
-        <grid2.hub></grid2.hub>
-      </properties>
-    </profile>
   </profiles>
 </project>
