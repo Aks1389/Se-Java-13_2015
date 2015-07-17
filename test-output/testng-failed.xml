@@ -5,28 +5,23 @@
   <test name="Test1(failed)">
     <parameter name="path" value="/"/>
     <classes>
-      <class name="selenium.tests.Logout">
+      <class name="selenium.tests.SearchFilm">
         <methods>
           <include name="init"/>
           <include name="tearDown"/>
+          <include name="testSearchFilmPositive"/>
         </methods>
-      </class> <!-- selenium.tests.Logout -->
+      </class> <!-- selenium.tests.SearchFilm -->
       <class name="selenium.tests.LoginTest">
         <methods>
           <include name="init"/>
         </methods>
       </class> <!-- selenium.tests.LoginTest -->
-      <class name="selenium.tests.DelFilm2">
-        <methods>
-          <include name="init"/>
-          <include name="testDelFilm2"/>
-        </methods>
-      </class> <!-- selenium.tests.DelFilm2 -->
-      <class name="selenium.tests.AddFilmPositive">
+      <class name="selenium.tests.Logout">
         <methods>
           <include name="init"/>
         </methods>
-      </class> <!-- selenium.tests.AddFilmPositive -->
+      </class> <!-- selenium.tests.Logout -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Tests] -->

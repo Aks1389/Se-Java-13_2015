@@ -5,8 +5,10 @@
 		<parameter name="path" value="/"/>
 		<classes>
 		    <class name="selenium.tests.LoginTest"/>
-		    <class name="selenium.tests.AddFilmPositive"/>
 		    <class name="selenium.tests.SearchFilm"/>
+		    	<methods>
+		    		<include name="testSearchFilmPositive"/>
+		    	</methods>
 		    <class name="selenium.tests.Logout"/>
 		    
 		</classes>

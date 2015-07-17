@@ -29,6 +29,7 @@ public class AddFilmNegative extends selenium.tests.pages.TestBase {
 		}
 
 		String movie_name = "Interstellar";
+		
 		assertTrue(isElementPresent(By.xpath(
 				"//table//td/input[@name=\"name\"]/following-sibling::label[contains(text(), \"This field is required\")]")));
 		WebElement yearField = driver.findElement(By.xpath("//table//td/input[@name=\"year\"]"));
